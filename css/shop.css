@@ -1,0 +1,18 @@
+div img {
+    width: 200px;
+    display: block;
+}
+
+button {
+    display: none;
+}
+
+/* Assuming that your element is hidden, adding this class will reveal it */
+.revealedButton {
+    display: initial;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+}

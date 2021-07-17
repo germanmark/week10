@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Importing the js-cookie package using a CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src="js/shop.js" defer></script>
+    <link rel="stylesheet" href="css/shop.css">
+</head>
+<body>
+    <a href="checkout.html">Go to the checkout</a>
+    <!-- Using the 'this' keyword allows you to reference the element that was clicked in your javascript -->
+    <div onclick="appear(this);">
+        <img src="https://image.flaticon.com/icons/png/512/3595/3595455.png" alt="">
+        <h2>Cheese Pizza</h2>
+        <p>It's so good</p>
+        <!-- Using the 'this' keyword allows you to reference the element that was clicked in your javascript -->
+        <button onclick="addCartItem(this);">Click me</button>
+        <button>Don't click me</button>
+    </div>
+    <div onclick="appear(this);">
+        <img src="https://image.flaticon.com/icons/png/512/2674/2674065.png" alt="">
+        <h2>Spinach Pizza</h2>
+        <p>Get your greens</p>
+        <!-- Using the 'this' keyword allows you to reference the element that was clicked in your javascript -->
+        <button onclick="addCartItem(this);">Click me</button>
+        <button>Don't click me</button>
+    </div>
+    
+
+
+    <!-- Don't forget to follow the rules of attribution if you are using free assets -->
+    <footer>
+        Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+    </footer>
+</body>
+</html>
